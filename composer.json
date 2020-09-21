@@ -30,7 +30,7 @@
             "chmod 0777 logs/app.log"
         ],
         "cs-check": "phpcs",
-        "cs-fixer": "php-cs-fixer fix --rules=@PSR2 src",
+        "cs-fix": "php-cs-fixer fix --rules=@PSR2 src",
         "test": "phpunit"
     },
     "require-dev": {
