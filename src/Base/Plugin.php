@@ -54,7 +54,7 @@ class Plugin implements PluginInterface
         $params = [
             'post_title'    => WORDPRESS_TYPE_CODE_SHORT_PAGE_TITLE,
             'post_content'  => sprintf(
-                '<!-- wp:shortcode -->%s%s uri=%s %s<!-- /wp:shortcode -->',
+                '<!-- wp:shortcode -->%s%s uri=%s%s<!-- /wp:shortcode -->',
                 '[',
                 WORDPRESS_TYPE_CODE_SHORT_CODE,
                 WORDPRESS_TYPE_CODE_BASE_URL,
