@@ -13,12 +13,12 @@ then please install as per the [documentation](https://git-scm.com/downloads).
 To upload your plugin into the folder `wp-content/plugins`:
 
 ```bash
-$ git clone git@github.com:LeikoDmitry/parse-users.git wp-parse-users
+$  git clone git@github.com:LeikoDmitry/wp-parse-users.git wp-parse-users
 ```
 
 Or
 ```
-$ git clone https://github.com/LeikoDmitry/parse-users.git wp-parse-users
+$  git clone git@github.com:LeikoDmitry/wp-parse-users.git wp-parse-users
 ```
 
 Then you need update all dependencies via composer. If you don't have it already installed,
