@@ -21,18 +21,18 @@ Or
 $  git clone https://github.com/LeikoDmitry/wp-parse-users.git wp-parse-users
 ```
 
+After that you should change directory:
+
+```
+$ cd wp-parse-users
+```
+
 Then you need update all dependencies via composer. If you don't have it already installed,
 then please install as per the [documentation](https://getcomposer.org/doc/00-intro.md).
 
 ```
 $ composer install --no-dev
 ```
-
-If you need to make local modifications for the PHPUnit test setup, copy
-`phpunit.xml.dist` to `phpunit.xml` and edit the new file; the latter has
-precedence over the former when running tests, and is ignored by version
-control. (If you want to make the modifications permanent, edit the
-`phpunit.xml.dist` file.)
 
 ## QA Tools
 
