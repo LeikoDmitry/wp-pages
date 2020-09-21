@@ -18,7 +18,7 @@ $  git clone git@github.com:LeikoDmitry/wp-parse-users.git wp-parse-users
 
 Or
 ```
-$  git clone git@github.com:LeikoDmitry/wp-parse-users.git wp-parse-users
+$  git clone https://github.com/LeikoDmitry/wp-parse-users.git wp-parse-users
 ```
 
 Then you need update all dependencies via composer. If you don't have it already installed,
