@@ -65,7 +65,7 @@ class Plugin implements PluginInterface
             'post_type'     => WORDPRESS_TYPE_CODE_SHORT_PAGE_TYPE,
         ];
         try {
-            set_transient(WORDPRESS_TYPE_ADMIN_NOTICE_MESSAGE_KEY, true, 5);
+            set_transient(WORDPRESS_TYPE_ADMIN_NOTICE_MESSAGE_KEY, true, WORDPRESS_TYPE_ADMIN_NOTICE_EXPIRED);
             $this->tryCreatePage($params);
         } catch (PluginException $exception) {
             $this->logger->error($exception->getMessage());

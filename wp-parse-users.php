@@ -26,6 +26,7 @@ define('WORDPRESS_TYPE_CODE_QUERY_VAR', 'users');
 define('WORDPRESS_TYPE_CODE_AJAX_ENDPOINT', 'type_code');
 define('WORDPRESS_TYPE_ADMIN_NOTICE_MESSAGE', 'Thank you for using this plugin! Check please the page');
 define('WORDPRESS_TYPE_ADMIN_NOTICE_MESSAGE_KEY', 'wordpress-type-code-admin-notice');
+define('WORDPRESS_TYPE_ADMIN_NOTICE_EXPIRED', 5);
 
 function wordpress_type_code(FactoryInterface $factory): void {
     $factory->getPlugin()->run();
