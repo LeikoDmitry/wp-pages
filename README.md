@@ -4,6 +4,11 @@
 
 The plugin is parse the JSON response and display an HTML table.
 
+
+## Requirements
+> PHP version 7.4 and higher
+
+
 ## Installation using Git
 
 The easiest way to upload the plugin is to use
