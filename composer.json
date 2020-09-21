@@ -1,0 +1,41 @@
+{
+    "name": "plugin/wordpress-type-code",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Crock-dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "twbs/bootstrap": "5.0.0-alpha1",
+        "monolog/monolog": "^2.1",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wordpress\\Type\\Code\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wordpress\\Type\\Code\\Test\\": "test/"
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "rm -rf assets/css assets/js",
+            "cp -R vendor/twbs/bootstrap/dist/css assets/css",
+            "cp -R vendor/twbs/bootstrap/dist/js assets/js",
+            "chmod 0777 logs/app.log"
+        ],
+        "cs-check": "phpcs",
+        "cs-fixer": "php-cs-fixer fix --rules=@PSR2 src",
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "^9.3",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}

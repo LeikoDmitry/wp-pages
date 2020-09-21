@@ -1,0 +1,7 @@
+/logs/
+composer.lock
+/vendor/
+/assets/css
+/assets/js
+.phpunit.result.cache
+.php_cs.cache
