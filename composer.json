@@ -43,5 +43,5 @@
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": true
 }
