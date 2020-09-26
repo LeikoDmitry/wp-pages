@@ -1,9 +1,11 @@
 {
-    "name": "plugin/wordpress-type-code",
+    "name": "crock/wordpress-parse-user",
+    "description": "A truly mega quiz",
     "license": "GPLv2 or later",
     "authors": [
         {
-            "name": "Crock-dev"
+            "name": "Crock-dev",
+            "email": "leiko.dima2013@yandex.by"
         }
     ],
     "require": {
