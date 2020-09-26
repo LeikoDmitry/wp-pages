@@ -2,6 +2,12 @@
     "name": "crock/wordpress-parse-user",
     "description": "A truly mega quiz",
     "license": "GPLv2 or later",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:LeikoDmitry/wp-parse-users.git"
+        }
+    ],
     "authors": [
         {
             "name": "Crock-dev",
