@@ -1,10 +1,7 @@
 {
     "name": "crock/wordpress-parse-user",
     "description": "A truly mega quiz",
-    "license": [
-        "LGPL-2.1-only",
-        "GPL-3.0-or-later"
-    ],
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Crock-dev",
