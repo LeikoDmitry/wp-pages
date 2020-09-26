@@ -44,9 +44,7 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "extra": {
-        "installer-paths": {
-            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
-        }
+    "config": {
+        "vendor-dir": "wp-content/plugins/{$name}/"
     }
 }
