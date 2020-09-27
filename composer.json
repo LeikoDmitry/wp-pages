@@ -43,8 +43,5 @@
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "vendor-dir": "wp-content/plugins/{$name}/"
-    }
+    "prefer-stable": true
 }
